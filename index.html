@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GajaReddy Ravi's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Gaja Reddy Ravi</div>
+    <div>
+      <ul class="nav-links">
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#experience">Experience</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Gaja Reddy Ravi</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li>
+          <a href="#about" onclick="toggleMenu()">About</a>
+        </li>
+        <li>
+          <a href="#experience" onclick="toggleMenu()">Experience</a>
+        </li>
+        <li>
+          <a href="#projects" onclick="toggleMenu()">Projects</a>
+        </li>
+        <li>
+          <a href="#contact" onclick="toggleMenu()">Contact</a>
+        </li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/profile-pic.jpeg" alt="Ravi's profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Gaja Reddy Ravi</h1>
+      <p class="section__text__p2">Full Stack Web Developer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/GajaReddyRavi_resume.pdf')">
+          Download Resume
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./index.html#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/ravi-reddy-60b069209/'"
+        />
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div style="margin-top:24px" />
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="./assets/about-pic.jpeg" alt="Profile picture" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+            <h3>Experience</h3>
+            <p>10+ years
+              <br />Frontend and Backend Development</p>
+          </div>
+          <div class="details-container">
+            <img src="./assets/education.png" alt="Education icon" class="icon" />
+            <h3>Education</h3>
+            <p>Bachelors of Technology in Information Technology</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            Full Stack Web Developer with 10+ years of experience in designing, developing, and deploying web applications. Proficient
+            in both front-end and back-end technologies, including HTML, CSS, JavaScript, and frameworks such as React, Next.JS,
+            Angular and Node.js. Skilled in building responsive, high-performance user interfaces, as well as robust server-side
+            solutions. Experienced with database management (SQL and NoSQL), RESTful APIs, and cloud services. Adept at using
+            version control systems, CI/CD pipelines, and containerization tools to streamline development and deployment
+            processes. Strong problem-solving abilities, excellent communication skills, and a commitment to continuous learning
+            and professional growth.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div style="margin-top:72px">
+    <section id="experience">
+      <h1 class="title">My Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <div>
+                  <h3>HTML</h3>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>CSS</h3>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>SASS</h3>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>JavaScript</h3>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>TypeScript</h3>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>Material UI</h3>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>ReactJS</h3>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>Next.JS</h3>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>Redux</h3>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>Angular</h3>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>REST APIs</h3>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>GraphQL</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+
+              <article>
+                <div>
+                  <h3>Node JS</h3>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>Express JS</h3>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>Java</h3>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>MongoDB</h3>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>SQL</h3>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>PostgreSQL</h3>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>Git</h3>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>Bitbucket</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div style="margin-top:42px" />
+    <section id="projects">
+      <h1 class="title">My Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+            </div>
+            <h2 class="experience-sub-title project-title">Project: Story by J.P.Morgan</h2>
+            <h4>Nov 2021 - June 2024</h4>
+            <div class="btn-container">
+              Story by J.P. Morgan is a digital platform for renters and small and midsize property owners to manage rent payments and
+              streamline operations. The platform is designed to help property owners save costs, grow their business, and
+              provide residents with secure rent payment options.
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+            </div>
+            <h2 class="experience-sub-title project-title">Project: QT-Backoffice</h2>
+            <h4>Oct-2018 to Oct-2021</h4>
+            <div class="btn-container">
+              QT-BackOffice is a web application designed to show all the cumulative and live trades done by QT users from QT desktop application.
+              QT-BackOffice is connected to Express.JS backend through Rest API's and Web sockets. Express.JS backend will
+              receive all the trades through RabbitMQ from OMS (Console Application which manages all the orders) and forwards
+              all the live trades to QT-BackOffice Application through Web sockets.
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+            </div>
+            <h2 class="experience-sub-title project-title">Project: Collab App</h2>
+            <h4>May-2017 to Sep-2018</h4>
+            <div class="btn-container">
+              Collab App is a web application designed to help teams to communicate and work together more effectively. Team members will
+              be assigned tasks by Admin/Team lead. Team members can upload files and comment on their specific task. Team
+              members can do a One-One chat. Task related event alerts will be sent through email automatically.
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+            </div>
+            <h2 class="experience-sub-title project-title">Project: Process Monitor</h2>
+            <h4>June-2016 to April-2017</h4>
+            <div class="btn-container">
+              Process Monitor is a Web Application which is used by Finsol for internal use. Admin/Support can add/update/delete/disable
+              Account, User, CTCL, Exchange. Admin/Support can map Exchange to CTCL, CTCL to Account and Accounts to Users.
+              Admin/Support can add/update/delete Limits and map to User/Account/CTCL. User can use Account and CTCL to trade
+              in Exchanges.
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+            </div>
+            <h2 class="experience-sub-title project-title">Project: Satya Super specialty hospital website</h2>
+            <h4>June 2014 - May 2016</h4>
+            <div class="btn-container">
+              The website shows all the services offered by the hospital and all Doctor’s information and their specialization
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+          <p>
+            <a href="mailto:ravigajareddy4@gmail.com">ravigajareddy4@gmail.com</a>
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+          <p>
+            <a href="https://www.linkedin.com/in/ravi-reddy-60b069209/">LinkedIn</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#experience">Experience</a>
+            </li>
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
